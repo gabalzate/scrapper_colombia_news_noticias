@@ -1,0 +1,155 @@
+news_sites:
+                         
+        wradio:
+                url: https://www.wradio.com.co
+                queries:
+                        homepage_article_links: '.destacado a'
+                        article_body: '.cuerpo_noticia'
+                        article_title: '.hgroup h1'
+                        article_date: '.firma_comentarios.estirar a'
+                        region_news: 'nacional'
+
+        elheraldo:
+                url: https://www.elheraldo.co
+                queries:
+                        homepage_article_links: '.titulo  a'
+                        article_body: '.content-article'
+                        article_title: '.text h1'
+                        article_date: '.pornodejarlimpio'
+                        region_news: 'regional-caribe-barranquilla'
+
+        eltiempo:
+                url: https://www.eltiempo.com/
+                queries:
+                        homepage_article_links: '.title-container a'
+                        article_body: '.contenido'
+                        article_title: '.titulo-principal-bk h1'
+                        article_date: '.fecha-publicacion-bk span'
+                        region_news: 'nacional'
+
+        semana:
+                url: https://www.semana.com/
+                queries:
+                        homepage_article_links: '.article-h a'
+                        article_body: '.theiaStickySidebar'
+                        article_title: '.small-12 h1'
+                        article_date: '.meta.left span'
+                        region_news: 'nacional'
+
+
+        marandua:
+                url: https://marandua.com.co/
+                queries:
+                        homepage_article_links: '.post-title a'
+                        article_body: '.post-content.entry-content'
+                        article_title: '.post-title h1'
+                        article_date: '.post-data'
+                        region_news: 'regional-guaviare'
+
+
+        miputumayo:
+                url: https://miputumayo.com.co/
+                queries:
+                        homepage_article_links: '.wp-show-posts-entry-title a'
+                        article_body: '.entry-content'
+                        article_title: '.entry-header h1'
+                        article_date: '.entry-date published'
+                        region_news: 'regional-putumayo'
+
+                
+
+        elbaudosenoe:
+                url: https://www.elbaudoseno.com/category/editorial/
+                queries:
+                        homepage_article_links: '.mvp-widget-feat2-right-main a'
+                        article_body: '.theiaPostSlider_preloadedSlide'
+                        article_title: '.mvp-post-title'
+                        article_date: '.none'
+                        region_news: 'regional-quibdo'
+        elbaudosenoa:
+                url: https://www.elbaudoseno.com/category/actualidad/
+                queries:
+                        homepage_article_links: '.mvp-widget-feat2-right-main a'
+                        article_body: '.theiaPostSlider_preloadedSlide'
+                        article_title: '.mvp-post-title'
+                        article_date: '.none'
+                        region_news: 'regional-quibdo'
+        elbaudosenop:
+                url: https://www.elbaudoseno.com/category/periodismo-ciudadano/
+                queries:
+                        homepage_article_links: '.mvp-widget-feat2-right-main a'
+                        article_body: '.theiaPostSlider_preloadedSlide'
+                        article_title: '.mvp-post-title'
+                        article_date: '.none'
+                        region_news: 'regional-quibdo'
+
+       
+        elexpreso:
+                url: https://www.elexpreso.co/es/
+                queries:
+                        homepage_article_links: '.info-new a'
+                        article_body: '.blog-post-details'
+                        article_title: '.content-box-blog-post-article h2'
+                        article_date: '.none'
+                        region_news: 'regional-pereira'
+
+        lafm:
+                url: https://www.lafm.com.co/
+                queries:
+                        homepage_article_links: '.node__title a'
+                        article_body: '.content'
+                        article_title: '.node-header-info h1'
+                        article_date: '.none'
+                        region_news: 'nacional'
+
+        rcnradio:
+                url: https://www.rcnradio.com/
+                queries:
+                        homepage_article_links: '.box-gral-section a'
+                        article_body: '.field--name-body'
+                        article_title: '.box-title-section-date h1'
+                        article_date: '.none'
+                        region_news: 'nacional'
+
+
+        elcolombiano:
+                url: https://www.elcolombiano.com/
+                queries:
+                        homepage_article_links: '.noticia a'
+                        article_body: '.noticia'
+                        article_title: '.information-noticia h3'
+                        article_date: '.none'
+                        region_news: 'nacional'
+
+
+        corrupcionaldia:
+                url: https://corrupcionaldia.com/
+                queries:
+                        homepage_article_links: '.entry-title a'
+                        article_body: '.td-post-content'
+                        article_title: '.td-post-title h1'
+                        article_date: 'noregistra'
+                        region_news: 'nacional'
+
+
+        lavanguardia:
+                url: https://www.vanguardia.com/
+                queries:
+                        homepage_article_links: '. article a'
+                        article_body: '.paragraph'
+                        article_title: '.template-vg-17 h1'
+                        article_date: 'noregistra'
+                        region_news: 'nacional'
+
+
+
+        lalibertad:
+                url: https://diariolalibertad.com/sitio/
+                queries:
+                        homepage_article_links: '.entry-title a'
+                        article_body: '.td-post-content'
+                        article_title: '.td-post-title h1'
+                        article_date: 'noregistra'
+                        region_news: 'nacional'
+
+
